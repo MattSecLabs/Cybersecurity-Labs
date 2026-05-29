@@ -20,3 +20,35 @@ nmap localhost
 
 ## Notes
 This was my first cybersecurity hands-on lab.
+# Basic Network Scanning Lab
+
+## Objective
+Use Nmap to scan a local Ubuntu machine and identify open ports and running services.
+
+## Environment
+- Ubuntu VM
+- VirtualBox
+
+## Tool Used
+- Nmap
+
+## Commands Used
+nmap localhost
+
+nmap -sV localhost
+
+## Results
+- Host successfully detected
+- 999 TCP ports were closed
+- Port 631/tcp was open
+- Detected CUPS printing service version 2.4
+
+## Skills Learned
+- Linux terminal navigation
+- Installing security tools
+- Port scanning
+- Service enumeration
+- Basic network reconnaissance
+
+## Notes
+This was my first hands-on cybersecurity lab using Nmap on Ubuntu Linux.
